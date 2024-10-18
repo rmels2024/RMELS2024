@@ -177,3 +177,73 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
     table.footer{font-size:0.33em;}
 }
 
+.table-schedule {
+    width: 1000px;
+    height: 100px;
+    color: #000000;
+    font-size: large;
+}
+
+.table-schedule th, td {
+    padding: 8px;
+    text-align: center;
+    width: auto;
+}
+
+.table-schedule thead th {
+    background-color: #4294fe;
+    color:  #ffffff;
+}
+
+.table-schedule th {
+    background-color: #6baafd;
+}
+
+.table-schedule tr:nth-child(odd) {
+    background-color: #99c5ff;
+}
+
+.table-schedule tr:nth-child(even) {
+    background-color: #6baafd;
+}
+
+.talk-title {
+    font-size: 1.67em;
+    text-align: center;
+    color: #4294fe;
+}
+
+.circle-div {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.panelist {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.circle-img {
+    border-radius: 75px;
+    width: 150px;
+    height: 150px;
+}
+
+.talker {
+    color: #000000;
+    text-align: center;
+    font-size: 1em;
+    margin: 0;
+}
+
+.school {
+    color: #000000;
+    text-align: center;
+    font-size: 0.5em;
+    margin: 0;
+}
