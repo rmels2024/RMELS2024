@@ -187,7 +187,8 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
 .table-schedule th, td {
     padding: 8px;
     text-align: center;
-    width: auto;
+    vertical-align: middle;
+    /* width: auto; */
 }
 
 .table-schedule thead th {
@@ -207,16 +208,24 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
     background-color: #6baafd;
 }
 
+.section-title {
+    font-size: 2.67em;
+    text-align: center;
+    color: #4294fe;
+}
+
 .talk-title {
     font-size: 1.67em;
     text-align: center;
-    color: #4294fe;
+    color: #000000;
 }
 
 .circle-div {
     text-align: center;
     align-items: center;
     justify-content: center;
+    width: 250px;
+    height: 250px;
 }
 
 
@@ -225,7 +234,7 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 0px;
 }
 
 .circle-img {
@@ -237,13 +246,13 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
 .talker {
     color: #000000;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.5em;
     margin: 0;
 }
 
 .school {
     color: #000000;
     text-align: center;
-    font-size: 0.5em;
+    font-size: 1em;
     margin: 0;
 }
